@@ -1,12 +1,41 @@
+# Quick List
+
+ * [Atom](#atom)
+ * [Eclipse](#eclipse)
+ * [Emacs](#emacs)
+ * [NetBeans](#netbeans)
+ * [Sublime Text](#sublime-text)
+ * [TypeScript Builder](#typescript-builder)
+ * [Vim](#vim)
+ * [Visual Studio](#visual-studio-20132015)
+ * [Visual Studio Code](#visual-studio-code)
+ * [WebStorm](#webstorm)
+
 # Atom
+
 [Atom-TypeScript](https://atom.io/packages/atom-typescript), a TypeScript language service for Atom developed by TypeStrong
 
 # Eclipse
-[Eclipse TypeScript Plug-in](https://github.com/palantir/eclipse-typescript), an Eclipse plugin developed by Palantir.
 
-# Sublime Text 3/2
+* [Eclipse TypeScript Plug-in](https://github.com/palantir/eclipse-typescript), an Eclipse plugin developed by Palantir.
+* [typescript.java](https://github.com/angelozerr/typescript.java) an Eclipse plugin which consumes tsserver with JSDT Editor.
 
-[TypeScript Plugin for Sublime](https://github.com/Microsoft/TypeScript-Sublime-Plugin), which can be acquired through [Package Control](https://packagecontrol.io/).
+# Emacs
+
+[tide](https://github.com/ananthakumaran/tide) - TypeScript Interactive Development Environment for Emacs
+
+# NetBeans
+
+* [nbts](https://github.com/Everlaw/nbts) - NetBeans TypeScript editor plugin
+* [Geertjan's TypeScript NetBeans Plugin](https://github.com/GeertjanWielenga/TypeScript)
+
+# Sublime Text
+
+The [TypeScript Plugin for Sublime](https://github.com/Microsoft/TypeScript-Sublime-Plugin), available through [Package Control](https://packagecontrol.io/) for both Sublime Text 3 and Sublime Text 2.
+
+# TypeScript Builder
+
+[TypeScript Builder](http://www.typescriptbuilder.com/), a dedicated TypeScript IDE.
 
 # Vim
 
@@ -35,6 +64,14 @@ let g:ycm_semantic_triggers['typescript'] = ['.']
 
 [Visual Studio](https://www.visualstudio.com/) comes with TypeScript when installing Microsoft Web Tools.
 
+TypeScript for Visual Studio 2015 can be found [here] (http://www.microsoft.com/en-us/download/details.aspx?id=48593)
+
+TypeScript for Visual Studio 2013 can be found [here] (https://www.microsoft.com/en-us/download/details.aspx?id=48739)
+
 # Visual Studio Code
 
 [Visual Studio Code](https://code.visualstudio.com/), a lightweight cross-platform editor, comes with TypeScript support built in.
+
+# Webstorm
+
+[WebStorm](https://www.jetbrains.com/webstorm/), as well as other JetBrains IDEs, contain TypeScript language support out of the box.

@@ -1,3 +1,7 @@
+**NOTE: These are Coding Guidelines for TypeScript Contributors**
+
+While **these guidelines are mainly meant for contributors to the TypeScript project**, certain suggestions apply as to how idiomatic TypeScript code should be written (e.g. the "Names" and "Style" sections).
+
 ## Names
 1. Use PascalCase for type names.
 2. Do not use "I" as a prefix for interface names.
@@ -18,18 +22,18 @@
 3. Shared types should be defined in 'types.ts'.
 4. Within a file, type definitions should come first.
 
-## `null` and `undefined`:
+## `null` and `undefined`
 1. Use **undefined**, do not use null.
 
 ## General Assumptions
 1. Consider objects like Nodes, Symbols, etc. as immutable outside the component that created them. Do not change them.
-2. Consider arrays as immutable by default.
+2. Consider arrays as immutable by default after creation.
 
 ## Classes
 1. For consistency, do not use classes in the core compiler pipeline. Use function closures instead.
 	
 ## Flags
-1. More than 2 Boolean properties on a type should be turned into flags.
+1. More than 2 related Boolean properties on a type should be turned into a flag.
 
 ## Comments
 1. Use JSDoc style comments for functions, interfaces, enums, and classes.
@@ -77,3 +81,4 @@ For a variety of reasons, we avoid certain constructs, and use some of our own. 
   3. `function f(x: number, y: string): void { }`
 6. Use a single declaration per variable statement <br />(i.e. use `var x = 1; var y = 2;` over `var x = 1, y = 2;`).
 7. `else` goes on a separate line from the closing curly brace.
+8. Use 4 spaces per indentation.
